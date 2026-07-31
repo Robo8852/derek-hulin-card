@@ -31,6 +31,9 @@ This card was cloned from the David Whitmire template and rebranded for **Peacoc
 
 - **Canonical URL** — `src/lib/site.ts` hardcodes `https://derek-hulin-card.vercel.app` (used by the Connect SMS and Share buttons). Update it if a custom domain is attached.
 
+- **Deployed** — live at `https://derek-hulin-card.vercel.app` (Vercel project
+  `derek-hulin-card`, auto-deploys from `main` on github.com/Robo8852/derek-hulin-card).
+
 ## Footer agency credit needs its link restored
 
 The footer says "Card by **Proclaim Agency**" but is intentionally **plain text, not a link** right now. The old link pointed to `https://costadelsolweb.com`, which is the wrong site for the Proclaim Agency branding. Once the correct Proclaim Agency URL exists/is decided:
