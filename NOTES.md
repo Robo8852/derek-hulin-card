@@ -13,6 +13,18 @@ This card was cloned from the David Whitmire template and rebranded for **Peacoc
 
 - **AI-built site flagged** — Peacock Premier Painting's website was built with Lovable.app (AI website builder). The service-tile images and the 3 testimonials (Madeline Coseli, Gary Waverly, Megan Ross) are hardcoded on the live site. All copy is verbatim from the site, but the material itself carries the same AI-generation context as the source. Card ships with this content FLAGGED for client confirmation.
 
+- **Headshot + personal bio added (2026-08-03)** — supplied by the client. Three flags:
+  - The bio copy spelled the company "Peacock **Premiere** Painting"; the website, domain, and
+    the rest of the card all use "**Premier**". Normalized to "Premier" on the card
+    (`src/components/AboutDerek.tsx`) — confirm with client which spelling is official.
+  - The original headshot carries a **Gemini sparkle watermark** (bottom-right corner) — the
+    photo is AI-generated or AI-edited. The square avatar crop happens to exclude the
+    watermark, but the provenance should be disclosed/confirmed with the client. Original
+    preserved at `reference/derek-headshot-original.png`; cropped avatar at
+    `public/assets/derek-hulin.jpg`.
+  - Bio says Derek has "built my career in sales" at Peacock Premier Painting — consistent
+    with no stated title (see above), so the vCard still omits `TITLE:`.
+
 - **No socials** — no social media links appear on the website, so `Socials.tsx` was deleted and no social profiles were added to the vCard.
 
 - **No social proof metadata** — no license number, years-established, or legal credentials on the website. "Licensed & insured" is stated in the Why Choose section, but no specific license numbers are provided. Do not invent any.

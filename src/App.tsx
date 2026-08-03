@@ -1,6 +1,7 @@
 import { useCallback } from 'react'
 
 import { AboutCompany } from '@/components/AboutCompany'
+import { AboutDerek } from '@/components/AboutDerek'
 import { AvatarRing } from '@/components/AvatarRing'
 import { Footer } from '@/components/Footer'
 import { Hero } from '@/components/Hero'
@@ -76,6 +77,7 @@ function App() {
         <Identity />
         <QuickActions />
         <PrimaryCtas onShare={handleShare} onAddContact={handleAddContact} />
+        <AboutDerek />
         <AboutCompany />
         <Services />
         <WhyChooseUs />
