@@ -2,9 +2,10 @@ import { Check } from "lucide-react"
 
 import { SectionHead } from "@/components/SectionHead"
 
-/* Company value props — verbatim from the website's Why Choose section. */
+/* Company value props — verbatim from the website's Why Choose section, except
+   the first, which drops the site's "Licensed, insured" claim at the owner's request. */
 const reasons = [
-  "Licensed, insured, and locally trusted",
+  "Locally trusted",
   "Premium materials built for Florida's climate",
   "Vetted, trained professionals",
   "Clear communication every step of the way",

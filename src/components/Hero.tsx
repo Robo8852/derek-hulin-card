@@ -9,12 +9,7 @@ export function Hero() {
   return (
     <div className="relative flex aspect-[2.2/1] w-full items-center justify-center pb-16 bg-gradient-to-b from-primary-deep to-background">
       <div className="relative z-2 px-gutter text-center">
-        {/* "Licensed & Insured" (a verbatim site claim), not "Painting & Coatings" —
-            the Identity badge directly below already says that. */}
         <div className="mx-auto mb-3 h-px w-16 bg-gold opacity-50" />
-        <div className="text-[0.62rem] font-medium tracking-[0.34em] text-primary uppercase">
-          Licensed &amp; Insured
-        </div>
         {/* font-normal, not font-light: Inter 300 isn't loaded, and thin strokes
             get eaten by dark backgrounds anyway (see handoff §3). */}
         <div className="mt-2 text-[1.05rem] leading-tight font-normal tracking-[0.02em] text-foreground">
